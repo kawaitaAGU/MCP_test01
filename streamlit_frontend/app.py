@@ -18,7 +18,7 @@ user_input = st.text_input("GPTに渡すメッセージを入力してくださ�
 if st.button("送信してMCPツールを呼び出す"):
     with st.spinner("GPT-4oがFastAPI MCPツールを呼び出しています..."):
         response = client.chat.completions.create(
-            model="gpt-4o-2024-11-20",
+            model="gpt-4o",
             messages=[
                 {"role": "user", "content": f"次のメッセージをMCPツールでエコーして: {user_input}"}
             ],
