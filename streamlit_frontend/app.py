@@ -27,7 +27,7 @@ if st.button("送信してMCPツールを呼び出す"):
                 {
                     "type": "openapi",
                     "spec": {
-                        "url": https://mcp-test01.onrender.com
+                        "url": "https://mcp-test01.onrender.com/openapi.json"
                     }
                 }
             ]
